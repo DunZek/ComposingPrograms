@@ -1,13 +1,12 @@
 """ 1.1 Getting Started
     - Computer science is terribly broad: Distrib-sys, AI, robo, graph, secur, sci-compute, comp-arch
     - Few parts of human life is unaffected: commerce, comm, sci, art, leisure, politics <- computational domains
-    - Why is comp-sci powerful? Because of elegant and powerful fundamental ideas.
-    - All computing begins with:
+    - Why is comp-sci powerful? Because of elegant and powerful fundamental ideas:
         1. Representing information
         2. Specifying logic to process it
-        3. Desigining abstractions that manage the complexity of that logic
+        3. Designing abstractions that manage the complexity of that logic
     - Such ideas everything computing, computer, and computer science have long been taught using SICP.
-    - This book borrow heavily from that textbook.
+    - This book borrows heavily from that textbook.
 """
 # You must learn how computers interpret programs and carry out the computational process
 
@@ -19,7 +18,7 @@
     - The Zen of Python guides by the principles of beauty, simplicity, and readability
     - Good for learning because of readability and features which enable numerous programming styles
     - The SICP fashion dictates that Python will be introduced step-by-step with techniques for:
-        - abstraction and,
+        - abstraction
         - rigorous model of computation
 """
 
@@ -32,7 +31,7 @@
 """
 from urllib.request import urlopen  # <- loading internet-comm. functionality by enabling a function that can access content via uniform resource locator
 
-# Statements (actions which are carried out) & Expressions (computations which are evaluated) - that which Python code consists of where programs instruct to either
+# Statements (actions which are carried out) & Expressions (computations which are evaluated) - that which Python code consists of where programs instruct to either:
 #   1. Compute some value
 #   2. Carry out some action
 shakespeare = urlopen("http://composingprograms.com/shakespeare.txt")  # a statement
@@ -45,12 +44,12 @@ words = set(shakespeare.read().decode().split())  # furthermore statements but u
 print( {w for w in words if len(w) == 6 and w[::-1] in words} )  # an expression - evalutes to the set of all words that are sinultaneously a word spelled in reverse
 
 # Interpreters - a program that interprets human-readable code. It carries out statements and evaluates expressions (Featured in Chapter 3).
-# Computer programs do not compare to the unique generality of interpreters. The Python interpreter allows inherently combersome code to be expressed in small volumes
+# Computer programs do not compare to the unique generality of interpreters. The Python interpreter allows inherently cumbersome code to be expressed in small volumes
 # All of the aforementioned concepts are related:
 #   functions are objects,
 #   objects are functions and
 #   interpreters are instances of both
-# Strive to develop the fundamental philosophy behind each of these concepts to mastering the art of programming
+# Strive to develop the fundamental philosophy behind each of these concepts to master the art of programming
 
 """ 1.1.5 Errors
     - Computers are fast as they are rigid.
