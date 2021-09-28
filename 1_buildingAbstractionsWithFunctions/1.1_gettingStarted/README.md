@@ -24,7 +24,7 @@
 
 > You must learn how computers interpret programs and carry out the computational process
 
-## Programming in Python
+## 1.1.1 Programming in Python
 - Python will be used to define computational processes because both man and machine can understand it
 - Pythonistas:
     - Web-developers
@@ -44,13 +44,13 @@
     - abstraction
     - rigorous model of computation
 
-## Installing Python 3
+## 1.1.2 Installing Python 3
 - *Python 3 will be used in this book*
 
-## Interactive Sessions
+## 1.1.3 Interactive Sessions
 - *just some REPL-ing*
 
-## First Example
+## 1.1.4 First Example
 - *Python* will be introduced by building up language knowledge piece-by-piece
 - Capabilities of Python:
     - Text-manipulation
@@ -74,7 +74,7 @@
     - interpreters are both at the same time
 - *Strive to develop the fundamental philosophy behind each of these concepts to master the art of programming.*
 
-## Errors
+## 1.1.5 Errors
 - Computers are fast as they are rigid.
 - Within Stanford's introductory course (CS101):
     - The fundamental equation of computers is:
