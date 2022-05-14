@@ -59,7 +59,7 @@
 - *Python code* consists of these things:
     1. Statements are actions which are carried out
     2. Expressions are computations which are evaluated
-    - in order to compute some value, or to carry out some action
+    - both either to compute some value or to carry out some action
 - *Functions* are encapsulations of data-manipulating logic
     - *Functions are the feature of this chapter*
 - *Objects* are complexity-managing bundles of data and logic used to manipulate said data

@@ -1,8 +1,8 @@
 # 1.2 Elements of Programming
 
-- A programming language is more than just
+- A programming language is more than just a means for instructing a computer to perform tasks.
 - The language also serves as a framework within which we organize our ideas about computational processes.
-- Programs server to communicate those ideas among the members of a programming community.
+- Programs serve to communicate those ideas among the members of a programming community.
 - Thus, programs must be written for people to read, and only incidentally for machines to execute.
 - Every powerful language has three mechanisms for combining simple ideas to form more complex ideas:
     - **primitive expressions and statements**
